@@ -74,6 +74,8 @@ animationState.forEach((state, index) => {
   spriteAnimation[state.name] = frames;
 });
 console.log(spriteAnimation);
+
+
 function animate() {
   ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 
